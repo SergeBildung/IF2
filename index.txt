@@ -1,0 +1,365 @@
+﻿```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proposition commerciale – Animation artistique Internet-Teamwettbewerb</title>
+  <style>
+    :root{
+      --ink:#111827;
+      --muted:#4b5563;
+      --line:#e5e7eb;
+      --bg:#ffffff;
+      --soft:#f9fafb;
+      --accent:#0f766e;
+      --accent2:#111827;
+      --radius:14px;
+      --shadow:0 8px 22px rgba(17,24,39,.08);
+      --max: 900px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--soft);
+      color:var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      line-height:1.45;
+    }
+    .page{
+      max-width: var(--max);
+      margin: 28px auto;
+      padding: 0 18px 44px;
+    }
+    header{
+      background:var(--bg);
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px 22px 18px;
+    }
+    .kicker{
+      font-size:12px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--muted);
+      margin:0 0 10px;
+    }
+    h1{
+      margin:0 0 10px;
+      font-size:26px;
+      line-height:1.2;
+    }
+    .subtitle{margin:0; color:var(--muted); font-size:14.5px;}
+    .meta{
+      margin-top:14px;
+      display:grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap:10px;
+    }
+    .chip{
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:999px;
+      padding:7px 10px;
+      font-size:12.5px;
+      color:var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .grid{display:grid; gap:14px; margin-top:14px;}
+    section.card{
+      background:var(--bg);
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px 18px 14px;
+    }
+    section.card h2{
+      margin:0 0 10px;
+      font-size:17px;
+      letter-spacing:.01em;
+    }
+    p{margin:10px 0}
+    .muted{color:var(--muted)}
+    .callout{
+      border-left:4px solid var(--accent);
+      background:#ecfdf5;
+      padding: 12px 14px;
+      border-radius: 12px;
+      margin: 12px 0 6px;
+    }
+    .two{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    ul{
+      margin:10px 0 0;
+      padding-left:18px;
+    }
+    li{margin:6px 0}
+    .badge{
+      display:inline-block;
+      font-size:12px;
+      color:#065f46;
+      background:#d1fae5;
+      border:1px solid #a7f3d0;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom:8px;
+    }
+    .table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      overflow:hidden;
+      border:1px solid var(--line);
+      border-radius:12px;
+      background:#fff;
+      margin-top:10px;
+    }
+    .table th, .table td{
+      padding:10px 10px;
+      border-bottom:1px solid var(--line);
+      vertical-align:top;
+      font-size:13.5px;
+    }
+    .table th{
+      text-align:left;
+      background:#f3f4f6;
+      font-size:12.5px;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+      color:var(--muted);
+      width:22%;
+    }
+    .table tr:last-child td, .table tr:last-child th{border-bottom:none}
+    .rule{height:1px;background:var(--line);margin:12px 0}
+    .pillrow{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+    .pill{
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:999px;
+      padding:6px 10px;
+      font-size:12.5px;
+      color:var(--muted);
+    }
+    .small{font-size:12.8px}
+    footer{
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12.5px;
+      text-align:center;
+    }
+    @media print{
+      body{background:#fff}
+      header, section.card{box-shadow:none}
+      .page{margin:0; padding:0; max-width:100%}
+      section.card{break-inside: avoid}
+    }
+    @media (max-width: 900px){
+      .meta{grid-template-columns:1fr 1fr}
+    }
+    @media (max-width: 640px){
+      .meta{grid-template-columns:1fr}
+      .two{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header>
+      <p class="kicker">Proposition commerciale condensée</p>
+      <h1>Animation artistique “Internet-Teamwettbewerb”</h1>
+      <p class="subtitle">Chasse au trésor FLE (Mainz & Saarbrücken) — remise de prix des classes lauréates</p>
+
+      <div class="meta">
+        <div class="chip"><strong>Client :</strong> Institut Français Stuttgart</div>
+        <div class="chip"><strong>Référence :</strong> 2026-P0204-5 / IF</div>
+        <div class="chip"><strong>Date :</strong> 26 février 2026</div>
+        <div class="chip"><strong>Public :</strong> 50–60 élèves (12–18 ans)</div>
+      </div>
+    </header>
+
+    <div class="grid">
+
+      <section class="card">
+        <h2>1. Contexte & intention</h2>
+        <p>
+          Organisés en réseau, les Instituts français promeuvent la langue et la culture françaises ainsi que les échanges internationaux.
+          Dans ce cadre, la promotion du <strong>Français Langue Étrangère (FLE)</strong> est un enjeu fort.
+        </p>
+        <p>
+          Vous constatez que l’image du français souffre parfois de préjugés (“élitiste”, “difficile”, “peu accessible”) et que certains élèves abandonnent en fin de Seconde.
+          L’<strong>Internet-Teamwettbewerb</strong> répond déjà à cet enjeu via un concours en ligne (8 thèmes).
+        </p>
+        <div class="callout">
+          <strong>Intention :</strong> transformer une remise de prix en <strong>expérience de bascule</strong> dans le parcours linguistique des élèves :
+          passage de l’hésitation à l’audace de communiquer en français.
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>2. Objectifs & compétences mobilisées</h2>
+
+        <div class="two">
+          <div>
+            <span class="badge">Objectifs</span>
+            <ul>
+              <li>Associer le français à un évènement chaleureux, drôle et valorisant</li>
+              <li>Débloquer l’oralité : confiance, motivation, prise de parole spontanée</li>
+              <li>Faire se rencontrer les classes lauréates (entraide, mentorat)</li>
+              <li>Vivre le français comme langue utile pour comprendre l’histoire franco-allemande et une perspective européenne</li>
+            </ul>
+          </div>
+
+          <div>
+            <span class="badge">CECRL & structures</span>
+            <p class="muted small">
+              Compétences : interaction orale, production en continu, médiation.<br/>
+              Structures consolidées (selon niveaux) : narration au passé, argumentation simple, hypothèses, discours rapporté.
+            </p>
+            <div class="callout">
+              <strong>Signature :</strong> “Aujourd’hui, j’ai vraiment parlé français.”
+            </div>
+          </div>
+        </div>
+
+        <div class="pillrow">
+          <span class="pill">Théâtre = débloqueur d’oralité</span>
+          <span class="pill">Ukulélé = rythme & mémorisation</span>
+          <span class="pill">Numérique/IA = tremplin créatif (usage encadré RGPD)</span>
+          <span class="pill">Adaptation multi-niveaux (12–18 ans)</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>3. Proposition : une après-midi de chasse au trésor (par ville)</h2>
+
+        <table class="table" aria-label="Déroulé">
+          <tr>
+            <th>Préparation<br/>(12h30–14h)</th>
+            <td>
+              Accueil (3 classes, 50–60 lauréats) • Célébration de la réussite • Mise en énergie corporelle & vocale
+              • Brise-glace • Formation des équipes (rencontre express) • Choix d’une mascotte & d’une devise • Remise des carnets de mission
+            </td>
+          </tr>
+          <tr>
+            <th>Chasse au trésor<br/>(14h–16h)</th>
+            <td>
+              Rotation sur <strong>6 épreuves modulables</strong> (15–20 min chacune selon site & déplacements).<br/>
+              Chaque épreuve : énigme + défi d’expression orale → gain d’une <strong>pièce de puzzle</strong>.<br/>
+              Création de mini-vidéos à chaque étape (valorisation).
+              <div class="rule"></div>
+              <strong>Sécurité :</strong> plan B intérieur en cas d’intempéries • déplacements encadrés par les enseignants • supervision permanente.
+            </td>
+          </tr>
+          <tr>
+            <th>Clôture<br/>(16h–17h)</th>
+            <td>
+              Debrief en binômes • “Météo de fin” enregistrée en français • Assemblage coopératif du puzzle final • Montage & projection d’un film-souvenir
+              • Chant final commun (devises des équipes) • Photo-souvenir • Remise de prix • Remise d’un <strong>PDF “kit enseignant”</strong> (prolongements en classe).
+            </td>
+          </tr>
+        </table>
+
+        <p class="muted small" style="margin-top:10px;">
+          Les parcours s’adaptent aux lieux (Institut français de Mainz & environs / Centre culturel de Saarbrücken, 3 salles + jardin + voisinage).
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>4. Mécanisme de jeu : stimulant & coopératif</h2>
+        <ul>
+          <li><strong>Passeport d’équipe</strong> : tampons + micro-missions linguistiques (preuves orales).</li>
+          <li><strong>Pièces de puzzle</strong> : une pièce gagnée à chaque épreuve ; chaque équipe détient une partie indispensable.</li>
+          <li><strong>Final commun</strong> : assemblage du puzzle révélant une phrase / visuel franco-allemand + restitution courte (ce qu’on a appris / osé dire).</li>
+          <li><strong>Bonus entraide</strong> : points pour l’aide inter-équipes (reformulation, correction bienveillante, soutien à l’oral).</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>5. Bénéfices pour l’Institut & évaluation</h2>
+
+        <div class="two">
+          <div>
+            <span class="badge">Bénéfices</span>
+            <ul>
+              <li>Renforcer l’image d’acteur innovant du FLE</li>
+              <li>Produire des contenus valorisables (film, photos)</li>
+              <li>Fidéliser les classes lauréates</li>
+              <li>Ouvrir un dialogue avec les enseignants partenaires</li>
+              <li>Nourrir la communication régionale</li>
+            </ul>
+          </div>
+          <div>
+            <span class="badge">Évaluation (proposée)</span>
+            <ul>
+              <li>Questionnaire satisfaction enseignants</li>
+              <li>Questionnaire satisfaction élèves</li>
+              <li><strong>Indicateurs :</strong> % d’élèves ayant pris la parole ≥ 3 fois • confiance perçue (1–5) • nombre de productions (vidéos, slogans, textes)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>6. Prérequis & estimation</h2>
+
+        <div class="two">
+          <div>
+            <span class="badge">Prérequis</span>
+            <ul>
+              <li>Entretiens enseignants (enjeux pédagogiques)</li>
+              <li>Autorisation droit à l’image (non commercial) pour remise du film aux familles</li>
+              <li>Validation des parcours (ville / sécurité) + plan B intérieur</li>
+              <li>Le jour J : locaux disponibles le matin • accompagnement enseignants • 2 référents IF pour coordination • Wi-Fi • vidéoprojecteur + salle sonorisée</li>
+            </ul>
+          </div>
+          <div>
+            <span class="badge">Estimation (HT)</span>
+            <table class="table" style="margin-top:0">
+              <tr><th>Forfait</th><td><strong>2 100 € HT</strong></td></tr>
+              <tr><th>Déplacement</th><td>200 €</td></tr>
+              <tr><th>Matériel</th><td>150 €</td></tr>
+            </table>
+            <p class="muted small">
+              <strong>Note :</strong> l’intervention mobilise <strong>5 jours</strong> de conception et préparation, ainsi que <strong>2 journées</strong> d’animation sur site,
+              incluant la création de supports personnalisés et d’un film-souvenir.
+            </p>
+            <p class="muted small">
+              Merci de communiquer l’adresse de facturation et le SIRET / TVA intracommunautaire pour édition du devis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Intervenant</h2>
+        <p><strong>Serge Mascaro</strong> — auteur (14 pièces dont 2 en allemand), comédien (+30 productions),
+          concepteur de la méthode “Prise de Conscience par le Théâtre”, praticien certifié Feldenkrais.</p>
+        <p class="muted small">
+          Une approche singulière alliant rigueur professionnelle, conscience corporelle, exigence artistique et transmission joyeuse.
+        </p>
+      </section>
+
+    </div>
+
+    <footer>
+      Proposition condensée — Animation artistique “Internet-Teamwettbewerb” (Mainz & Saarbrücken)
+    </footer>
+
+  </div>
+</body>
+</html>
+```
+
